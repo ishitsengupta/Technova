@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio & Case Studies | TechNova Solutions</title>
+  <meta name="description" content="View the TechNova Solutions portfolio. Read our detailed case studies and discover how our custom software solutions drive real results for our clients.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">TechNova.</a>
+      <button class="mobile-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container">
+      <h1>In-Depth Case Studies</h1>
+      <p style="margin-bottom: var(--space-6); font-size: 1.25rem;">Examine how we tackle complex architectural challenges and deliver measurable business outcomes.</p>
+
+      <article class="grid-2" style="margin-bottom: var(--space-8); align-items: center;">
+        <img src="images/portfolio-fake.avif" alt="Data dashboard on a monitor showing analytics growth">
+        <div>
+          <h2 style="margin-bottom: var(--space-1);">FinTrack: Legacy System Modernization</h2>
+          <p style="color: var(--color-accent); font-weight: 500; margin-bottom: var(--space-3);">Industry: Financial Services</p>
+          
+          <h4>The Problem</h4>
+          <p>FinTrack relied on a monolithic 15-year-old on-premise application that suffered from frequent downtime and severely bottlenecked their capacity to onboard new enterprise clients.</p>
+          
+          <h4>The Solution</h4>
+          <p>TechNova executed a phased migration to AWS using a microservices architecture. We rewrote core transaction engines in Node.js while establishing automated CI/CD pipelines.</p>
+          
+          <h4>The Result</h4>
+          <p>System uptime improved to 99.99%. FinTrack reduced their infrastructure costs by 40% and accelerated new client onboarding from weeks to mere hours.</p>
+        </div>
+      </article>
+
+      <article class="grid-2" style="align-items: center;">
+        <div style="order: 2;">
+          <h2 style="margin-bottom: var(--space-1);">LogisTech: Route Optimization Engine</h2>
+          <p style="color: var(--color-accent); font-weight: 500; margin-bottom: var(--space-3);">Industry: Logistics & Supply Chain</p>
+          
+          <h4>The Problem</h4>
+          <p>Fleet dispatchers were manually calculating delivery routes, leading to high fuel costs, missed delivery windows, and operational inefficiencies.</p>
+          
+          <h4>The Solution</h4>
+          <p>We engineered a custom AI-driven routing algorithm utilizing Python and integrated it seamlessly into a React-based fleet management dashboard deployed on Google Cloud.</p>
+          
+          <h4>The Result</h4>
+          <p>Fuel expenditure dropped by 18% in the first quarter post-launch, and on-time delivery rates increased to 96%, significantly boosting overall client satisfaction.</p>
+        </div>
+        <img src="images/warehouse.avif" alt="Warehouse logistics operations with shipping containers" style="order: 1;">
+      </article>
+    </section>
+
+    <section class="section section-sm" style="background-color: var(--color-surface);">
+      <div class="container">
+        <h2>Project Gallery</h2>
+        <div class="grid-3">
+          <figure>
+            <img src="images/dashboard-pf.avif" alt="Data visualization dashboard interface">
+            <figcaption style="margin-top: var(--space-2);">
+              <h4 style="margin-bottom: var(--space-1);">Healthcare Data Portal</h4>
+              <p style="font-size: 0.875rem;">Secure HIPAA-compliant patient analytics dashboard built with React and GraphQL.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/graphs-type-shi.avif" alt="Analytics graphs overlaid on a map">
+            <figcaption style="margin-top: var(--space-2);">
+              <h4 style="margin-bottom: var(--space-1);">Retail Forecasting Tool</h4>
+              <p style="font-size: 0.875rem;">Predictive inventory management system integrating third-party POS APIs.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/bros-explaining-lmao.avif" alt="Students in a technology training workshop">
+            <figcaption style="margin-top: var(--space-2);">
+              <h4 style="margin-bottom: var(--space-1);">Corporate Cloud Bootcamp</h4>
+              <p style="font-size: 0.875rem;">Custom 8-week training program delivered to a Fortune 500 internal IT team.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/let-that-sink-in.avif" alt="Developers collaborating over a laptop screen">
+            <figcaption style="margin-top: var(--space-2);">
+              <h4 style="margin-bottom: var(--space-1);">E-Commerce Core Overhaul</h4>
+              <p style="font-size: 0.875rem;">Migration from a monolithic CMS to a headless commerce architecture.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" style="text-align: center;">
+      <h2>Trusted by Industry Leaders</h2>
+      <p style="margin-bottom: var(--space-4);">We partner with forward-thinking companies across multiple sectors.</p>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-6); align-items: center; opacity: 0.6; filter: grayscale(100%);">
+        <h3 style="margin: 0; font-family: serif; font-size: 2rem;">AcmeCorp</h3>
+        <h3 style="margin: 0; letter-spacing: 2px;">GLOBEX</h3>
+        <h3 style="margin: 0; font-weight: 300; font-size: 2rem;">Initech</h3>
+        <h3 style="margin: 0; font-style: italic;">Soylent Systems</h3>
+        <h3 style="margin: 0; font-weight: 900;">MASSIVE DYNAMIC</h3>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo">TechNova.</a>
+        <p style="margin-top: var(--space-2); font-size: 0.875rem;">Innovation at Every Step.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Careers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Software Development</a></li>
+          <li><a href="services.html">IT Consulting</a></li>
+          <li><a href="services.html">Corporate Training</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <ul>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">Twitter/X</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container" style="margin-top: var(--space-6); padding-top: var(--space-4); border-top: 1px solid var(--color-border); font-size: 0.875rem; color: var(--color-text-muted);">
+      &copy; 2026 TechNova Solutions. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
